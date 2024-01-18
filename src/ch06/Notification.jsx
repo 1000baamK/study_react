@@ -7,7 +7,7 @@ const styles = {
         display: "flex",
         flexDirection: "row",
         border: "1px solid grey",
-        borderRadiusL: 16
+        borderRadius: 16
     },
     messageText: {
         color: "black",
@@ -20,6 +20,18 @@ class Notification extends React.Component{
         super(props);
 
         this.state = {};
+    }
+
+    componentDidMount(){
+        console.log(`${this.props.id} componentDidMount() called.`);
+    }
+
+    componentDidUpdate(){
+        console.log(`${this.props.id} componentDidUpdate() called.`);
+    }
+
+    componentWillUnmount(){
+        console.log(`${this.props.id} componentWillUnmount() called.`);
     }
 
     render(){

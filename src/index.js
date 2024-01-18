@@ -7,12 +7,14 @@ import reportWebVitals from './reportWebVitals';
 import Library from './ch03/Library';
 import Clock from './ch04/Clock';
 import CommentList from './ch05/CommentList';
+import NotificationList from './ch06/NotificationList';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Library/> */}
     {/* <Clock/> */}
-    <CommentList/>
+    {/* <CommentList/> */}
+    <NotificationList/>
   </React.StrictMode>,
   document.getElementById('root')
 );
