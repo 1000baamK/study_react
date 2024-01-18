@@ -9,6 +9,7 @@ import Clock from './ch04/Clock';
 import CommentList from './ch05/CommentList';
 import NotificationList from './ch06/NotificationList';
 import Accommodate from './ch07/Accommodate';
+import ConfirmButton from './ch08/ConfirmButton';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +17,8 @@ ReactDOM.render(
     {/* <Clock/> */}
     {/* <CommentList/> */}
     {/* <NotificationList/> */}
-    <Accommodate/>
+    {/* <Accommodate/> */}
+    <ConfirmButton/>
   </React.StrictMode>,
   document.getElementById('root')
 );
