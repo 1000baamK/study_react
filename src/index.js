@@ -8,13 +8,15 @@ import Library from './ch03/Library';
 import Clock from './ch04/Clock';
 import CommentList from './ch05/CommentList';
 import NotificationList from './ch06/NotificationList';
+import Accommodate from './ch07/Accommodate';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Library/> */}
     {/* <Clock/> */}
     {/* <CommentList/> */}
-    <NotificationList/>
+    {/* <NotificationList/> */}
+    <Accommodate/>
   </React.StrictMode>,
   document.getElementById('root')
 );
