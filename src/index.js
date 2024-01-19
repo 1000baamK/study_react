@@ -15,6 +15,7 @@ import AttendanceBook from './ch10/AttendanceBook';
 import SignUp from './ch11/SignUp';
 import Calculator from './ch12/Calculator';
 import ProfileCard from './ch13/ProfileCard';
+import DarkOrLight from './ch14/DarkOrLight';
 
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -34,7 +35,8 @@ import ProfileCard from './ch13/ProfileCard';
 // ReactDOM.createRoot(document.getElementById("root")).render(<AttendanceBook/>);
 // ReactDOM.createRoot(document.getElementById("root")).render(<SignUp/>);
 // ReactDOM.createRoot(document.getElementById("root")).render(<Calculator/>);
-ReactDOM.createRoot(document.getElementById("root")).render(<ProfileCard/>);
+// ReactDOM.createRoot(document.getElementById("root")).render(<ProfileCard/>);
+ReactDOM.createRoot(document.getElementById("root")).render(<DarkOrLight/>);
 
 
 // If you want to start measuring performance in your app, pass a function
