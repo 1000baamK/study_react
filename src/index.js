@@ -14,6 +14,7 @@ import LandingPage from './ch09/LandingPage';
 import AttendanceBook from './ch10/AttendanceBook';
 import SignUp from './ch11/SignUp';
 import Calculator from './ch12/Calculator';
+import ProfileCard from './ch13/ProfileCard';
 
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -32,7 +33,8 @@ import Calculator from './ch12/Calculator';
 //리액트 18버전 이후부터는 ReactDOM의 경로를 /client를 붙이고 밑의 방식과 같이한다.
 // ReactDOM.createRoot(document.getElementById("root")).render(<AttendanceBook/>);
 // ReactDOM.createRoot(document.getElementById("root")).render(<SignUp/>);
-ReactDOM.createRoot(document.getElementById("root")).render(<Calculator/>);
+// ReactDOM.createRoot(document.getElementById("root")).render(<Calculator/>);
+ReactDOM.createRoot(document.getElementById("root")).render(<ProfileCard/>);
 
 
 // If you want to start measuring performance in your app, pass a function
